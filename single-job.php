@@ -24,12 +24,23 @@
       <div class="extra-padding-page">
 
 
+      <section>
+         <div class="grid align-left">
+           <div class="unit whole">
+            <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'carreers' ) ) ); ?>" class="main-links align-left jobs-padding">
+              Back to Jobs
+            </a>
+            <h3 class="section-titles-b align-left jobs-padding">
+              <?php the_title();?>
+            </h3>
+          </div>
+        </div>
+      </section>
+
+
 <?php while ( have_posts() ) : the_post(); ?>
 
 <section>
-
-
-
 
         <div class="grid align-center">
           <div class="unit golden-small">

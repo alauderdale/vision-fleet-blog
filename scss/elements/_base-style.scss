@@ -146,7 +146,6 @@ ul.jobslist {
 }
 
 .home_hero {
-    background: url("../images/home_hero.png") no-repeat scroll left top / cover #fff;
     height: 650px;
     margin-top: -160px;
     width: 100%;
@@ -233,6 +232,13 @@ ul.jobslist {
     width: 100%;
 	background-color:#5475b2;
 }
+
+.vf_home{
+    height: 350px;
+    width: 100%;
+    background-color:#5475b2;
+}
+
 .login-cta a {
     background-color: transparent;
     border: 2px solid #505662;
