@@ -7,14 +7,17 @@ jQuery(document).ready(function($){
 	}
 
 		//fancybox if/when needed
-		$('.fancybox').fancybox();
+		$(".fancybox").fancybox({
+			openEffect	: 'none',
+			closeEffect	: 'none'
+		});
 		
-		// $('.fb-video').fancybox({
-		//        padding: 0,
-		//        helpers: {
-		//            media: {}
-		//        }
-		//   });
+		$('.fb-video').fancybox({
+		       padding: 0,
+		       helpers: {
+		           media: {}
+		       }
+		 });
 
 
 });

@@ -16,6 +16,20 @@ body {
 	margin-left: auto;
 	margin-right: auto
 }
+
+
+    ul#menu-primary{
+        li{
+            &.active{
+                a{
+                    background:none!important;
+                    color:#333333;
+                }
+            }
+        }
+    }
+
+
 /************************* Video *************************/
 #video {
 	background:#f2f2f2;
@@ -126,6 +140,11 @@ ul.jobslist {
     text-align: center;
     width: 100%;
 }
+
+.blog_hero {
+    background: url("../images/blog_hero.png") no-repeat scroll center center/ cover #fff;
+}
+
 .home_hero {
     background: url("../images/home_hero.png") no-repeat scroll left top / cover #fff;
     height: 650px;
@@ -188,6 +207,14 @@ ul.jobslist {
     text-align: center;
     width: 100%;
 }
+
+.page_hero {
+    height: 450px;
+    margin-top: -160px;
+    text-align: center;
+    width: 100%;
+}
+
 .vf_capital_home {
     background: url("../images/vf_capital_home.png") no-repeat scroll center center / cover;
     height: 350px;
@@ -328,6 +355,10 @@ h2.case_study_title {
     font-weight: 300;
     letter-spacing: 5px;
     line-height: 30px;
+    text-shadow:none;
+    margin-top:40px;
+    clear: both; 
+
 }
 
 .capital_bg {
@@ -356,7 +387,7 @@ h2.case_study_title {
 
 
 /*******fonts*******/
-h1.main {
+h1.main, h1 {
     clear: both;
     color: white;
     font-size: 30px;
@@ -376,7 +407,7 @@ h1.main {
 	margin-bottom:0px;
 	}
 
-h2.sub-main {
+h2.sub-main, h2 {
     clear: both;
     color: white;
     font-size: 1.2em;
@@ -395,7 +426,7 @@ h3.section-titles-w {
     margin-top: 0;
     padding-top: 30px!important;
 }
-h3.section-titles-b {
+h3.section-titles-b, h3 {
     clear: both;
     color: #333333;
     font-size: 24px;
@@ -405,7 +436,7 @@ h3.section-titles-b {
     margin-top: 0;
     padding-top: 30px!important;
 }
-h4.green-titles {
+h4.green-titles, h4 {
     clear: both;
     color: #a5cd49;
     font-size: 18px;
@@ -416,7 +447,7 @@ h4.green-titles {
     padding-top: 10px;
 }
 
-h5.sub-sub-titles {
+h5.sub-sub-titles, h5 {
     clear: both;
     color: #6d6b6b;
     font-size: 18px;
@@ -438,7 +469,7 @@ h5.sub-sub-titles-w {
     padding-top: 10px;
 }
 
-p.body-copy-b {
+p.body-copy-b, p, .body-copy-b p {
     clear: both;
     color: #666666;
     font-size: 16px;
@@ -499,6 +530,8 @@ h3.section-titles-b, h3.section-titles-w {
 h2.case_study_title {
     font-size: 20px;
 }
+
+
 
 img.about-pics {
     padding: 0 10px;
@@ -626,4 +659,8 @@ h2.contact-sub-title {
 .about_hero,.capital_hero, .iq_hero, .assist_hero, .press_hero,.projects_hero, .contact_hero, .jobs_hero  {
     height: 250px;
 }
+}
+
+.margin-bottom{
+    margin-bottom:80px;
 }
